@@ -1,0 +1,82 @@
+main {
+  background-color: rgba(200, 216, 221, 0.534);
+  display: flex;
+}
+
+/* h5 { */
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, */
+    /* sans-serif; */
+  /* color: rgb(60, 99, 228); */
+}
+/* img { */
+  /* width: 200px; */
+  /* height: 50px; */
+/* } */
+.content {
+  color: #1c1e21;
+  font-size: 24px;
+  line-height: 28px;
+  width: auto;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+.face-logo {
+  width: 400px;
+  height: 300px;
+}
+.face-input {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    width: 250px;
+    height: 150px;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+footer {
+  background-color: white;
+}
+li {
+    float: left;
+    line-height: 23px;
+    word-spacing: 10px;
+}
+ul li {
+    padding: 0 10px;
+}
+input {
+    border: 1px solid;
+    border-radius: 5px;
+    width: auto;
+    height: 20px;
+}
+input:hover {
+    color: rgb(93, 93, 223);
+}
+.anmelden {
+    background-color: rgb(14, 110, 236);
+    color: white;
+    border-radius: 5px;
+}
+.passwort {
+    color: rgb(14, 110, 236);
+    text-align: center;
+}
+.neues-konto {
+    background-color: rgb(55, 179, 55);
+color: white;
+border-radius: 5px;
+}
+.face-par {
+    text-align: center;
+}
